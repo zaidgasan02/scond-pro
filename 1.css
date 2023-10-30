@@ -1,0 +1,126 @@
+
+body{ 
+	 
+	 animation-name:changeColor;
+	 animation-duration:6s;
+	 animation-iteration-count:infinite;
+}
+h1{
+	position:relative;
+	left:440px;
+	font-size:60px;
+	text-shadow:-4px 4px 6px white;
+	
+}
+
+p{width:550px;
+  height:300px;
+  background-color:white;
+     color:black;
+     border-radius:25px;
+font-size:30px;	 
+     text-align:center;
+      }
+	 
+	 
+nav{ width:550px;
+  height:300px;
+  position:absolute;
+  right:50px;
+  top:180px;
+  background-color:white;
+     color:black;
+	 font-size:20px;	 
+     text-align:center;
+     border-radius:25px;
+	  
+	 }	 
+	 
+	 
+div {width:200px;
+     height:200px;
+	 background:white;
+	 box-shadow: 40px 40px 60px grey;
+     position:relative;
+	 left:550px;
+	 border-radius:40px;
+	 text-align:center;
+	 font-size:20px;
+	  animation-name:changeColor;
+	 
+	 }	 
+
+
+lable {
+	position:absolute;
+	top:60px;
+	right:60px;
+     padding:10px;
+	 font-wight:bold;
+	 color:black;
+	 border:10xp solid royalwhite;
+	 text-align:center;
+	 width:10em;
+	 border-radius:15px;
+	 background:white;
+	  animation-name:changeColor;
+	 
+	 }
+lable ul{display:none; 
+     list-style:none;
+	 padding:0;
+	 margin:0;
+	  }	 
+lable:hover ul {display:block;}
+lable ul li{border-top:2xp solid royalwhite;
+          background-color:royalblue;
+		  width:9em;
+		  padding:7px;
+		  tex-decoration:underline;
+		  font-weight:bolder;
+		  border-style:dotted;
+		  margin:7px;
+		  color:black;
+		  }
+lable ul li:hover {background-color:powderwhite;
+                 tex-decoration:none;
+				 }
+				 
+
+table {position:relative;
+         left:350px;
+		 font-size:25px;
+		 margin:10px;
+		 padding:10px;
+		 
+		 background-image: url(emj.jfif), url(imgg2.JPEG);
+         background-position: bottom right, top left;
+          background-origin: content-box, content-box;
+         background-repeat: no-repeat, no-repeat;
+
+		 }		
+
+table thead tr th {margin:10px;
+		              padding:10px;}		 
+					  
+					  
+h2{position:relative;
+     left:500px;
+	 color:black;
+	  }		
+
+
+.text{position:relative;
+     left:400px;
+	 color:black;}	 
+	 
+
+@keyframes changeColor{
+	0%{background-color:yellow;}
+	20%{background-color:gray;}
+	40%{background-color:#87ceeb}
+	60%{background-color:white;}
+	80%{background-color:#ff91a4}
+	100%{background:#ff91a4}
+	}
+}
